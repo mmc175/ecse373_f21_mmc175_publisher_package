@@ -132,7 +132,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(publisher_node src/publisher_code.cpp)
+add_executable(subscriber_node src/git lssubscriber_code.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -148,7 +148,7 @@ add_executable(publisher_node src/publisher_code.cpp)
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-target_link_libraries(publisher_node ${catkin_LIBRARIES})
+target_link_libraries(subscriber_node ${catkin_LIBRARIES})
 
 #############
 ## Install ##
