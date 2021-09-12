@@ -2,7 +2,7 @@
 <package format="2">
   <name>publisher_package</name>
   <version>0.0.0</version>
-  <description>The publisher_package package</description>
+  <description>subscriber_package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
